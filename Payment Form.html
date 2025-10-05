@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)file:///C:/Users/KIIT/Desktop/html/4_paymentform.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="./Payment Form_files/paymentform.css">
+</head>
+<body>
+    <form action="file:///C:/Users/KIIT/Desktop/html/4_paymentform.html">
+        <h1>Payment form</h1>
+        <h2>Contact information</h2>
+        <p>Name: *<input type="text" name="name"></p>
+        <fieldset>
+            <legend>Gender: *</legend>
+        <p>
+            Male <input type="radio" name="gender" id="male" required=""> Female <input type="radio" name="gender" id="female" required="">
+        </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="100" rows="8"></textarea></p>
+        <p>Email: *<input type="email" name="email" id="email" required=""></p>
+        <p>Pincode: <input type="pincode" name="pincode" id="pincode"></p>
+        <h3>Payment Information</h3>
+        <p>Card Type: 
+            <select name="card_type" id="card_type">
+                <option value="">--select a Card Type--</option>
+                <option value="Visa">Visa</option>
+                <option value="netbanking">Netbanking</option>
+                <option value="mastercard">Mastercard</option>
+            </select>
+        </p>
+        <p>
+            Card Number: <input type="number" name="card_number" id="card_number">
+        </p>
+        <p>
+            Exp date: <input type="date" name="exp_date" id="exp_date">
+        </p>
+        <p>
+            CVV: <input type="password" name="CVV" id="CVV">
+        </p>
+        <input type="submit" value="Pay Now">
+    </form>
+    
+
+</body></html>
